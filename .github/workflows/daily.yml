@@ -1,0 +1,41 @@
+name: Daily summary + watchdog
+
+on:
+  schedule:
+    - cron: "53 2 * * *"     # ~7:53 PM Pacific (daylight time) / 6:53 PM (standard time)
+    - cron: "17 * * * *"     # hourly watchdog
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "summary or watchdog"
+        default: "summary"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Watchdog
+        if: github.event.schedule == '17 * * * *' || github.event.inputs.mode == 'watchdog'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python summary.py --watchdog
+      - name: Daily summary
+        if: github.event.schedule == '53 2 * * *' || github.event.inputs.mode == 'summary'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: |
+          python summary.py
+          git config user.name "job-watcher-bot"
+          git config user.email "job-watcher-bot@users.noreply.github.com"
+          git add reports/
+          git diff --cached --quiet || (git commit -q -m "daily summary $(date -u +%F)" && git pull -q --rebase && git push -q)
