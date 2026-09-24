@@ -1,0 +1,58 @@
+name: Job watcher (every 5 min)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub may delay scheduled runs during busy periods
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Poll job sources and send alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python watcher.py
+
+      - name: Save state (dedup log, alert log, health)
+        if: always()
+        run: |
+          git config user.name "job-watcher-bot"
+          git config user.email "job-watcher-bot@users.noreply.github.com"
+          git add state/
+          if ! git diff --cached --quiet; then
+            git commit -q -m "watcher state $(date -u +%FT%TZ)"
+            git pull -q --rebase -X ours origin "${GITHUB_REF_NAME}" || true
+            git push -q
+          fi
+
+      - name: Heartbeat (optional, healthchecks.io)
+        if: success()
+        env:
+          HC: ${{ secrets.HEALTHCHECK_URL }}
+        run: '[ -n "$HC" ] && curl -fsS -m 10 --retry 3 "$HC" > /dev/null || true'
+
+      - name: Tell me if this cycle failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: Job watcher cycle FAILED" -H "Priority: high" -H "Tags: warning" \
+            -d "A monitoring cycle failed. See ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            "https://ntfy.sh/${NTFY_TOPIC}"
