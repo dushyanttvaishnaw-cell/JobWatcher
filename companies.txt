@@ -1,0 +1,214 @@
+# Sources to monitor. One per line:  ats:slug|Display Name
+# Workday format:                      workday:host|tenant|site|Display Name
+# Adzuna (broad aggregator, optional): adzuna:<title keyword>   (needs ADZUNA_APP_ID / ADZUNA_APP_KEY secrets)
+#
+# Add a company fast:  python add_company.py <careers-page URL>
+# After editing, run the "Validate sources" workflow — it lists any lines that don't resolve.
+
+# ---------------- Broad coverage (aggregator; catches companies not listed below)
+adzuna:analyst
+adzuna:coordinator
+adzuna:supply chain
+
+# ---------------- Greenhouse
+greenhouse:airbnb|Airbnb
+greenhouse:stripe|Stripe
+greenhouse:doordashusa|DoorDash
+greenhouse:instacart|Instacart
+greenhouse:lyft|Lyft
+greenhouse:robinhood|Robinhood
+greenhouse:coinbase|Coinbase
+greenhouse:dropbox|Dropbox
+greenhouse:pinterest|Pinterest
+greenhouse:reddit|Reddit
+greenhouse:discord|Discord
+greenhouse:figma|Figma
+greenhouse:databricks|Databricks
+greenhouse:gitlab|GitLab
+greenhouse:samsara|Samsara
+greenhouse:affirm|Affirm
+greenhouse:chime|Chime
+greenhouse:brex|Brex
+greenhouse:gusto|Gusto
+greenhouse:asana|Asana
+greenhouse:twilio|Twilio
+greenhouse:okta|Okta
+greenhouse:cloudflare|Cloudflare
+greenhouse:datadog|Datadog
+greenhouse:mongodb|MongoDB
+greenhouse:elastic|Elastic
+greenhouse:squarespace|Squarespace
+greenhouse:flexport|Flexport
+greenhouse:andurilindustries|Anduril
+greenhouse:spacex|SpaceX
+greenhouse:roblox|Roblox
+greenhouse:betterment|Betterment
+greenhouse:oscar|Oscar Health
+greenhouse:zocdoc|Zocdoc
+greenhouse:flatironhealth|Flatiron Health
+greenhouse:headway|Headway
+greenhouse:waymo|Waymo
+greenhouse:gomotive|Motive
+greenhouse:verkada|Verkada
+greenhouse:toast|Toast
+greenhouse:warbyparker|Warby Parker
+greenhouse:sweetgreen|Sweetgreen
+greenhouse:gopuff|Gopuff
+greenhouse:faire|Faire
+greenhouse:attentive|Attentive
+greenhouse:vercel|Vercel
+greenhouse:lucidmotors|Lucid Motors
+greenhouse:sofi|SoFi
+greenhouse:marqeta|Marqeta
+greenhouse:calendly|Calendly
+greenhouse:thumbtack|Thumbtack
+greenhouse:nextdoor|Nextdoor
+greenhouse:stitchfix|Stitch Fix
+greenhouse:thredup|thredUP
+greenhouse:gemini|Gemini
+greenhouse:nuro|Nuro
+greenhouse:shipbob|ShipBob
+greenhouse:stord|Stord
+greenhouse:flocksafety|Flock Safety
+greenhouse:alltrails|AllTrails
+greenhouse:duolingo|Duolingo
+greenhouse:coursera|Coursera
+greenhouse:udemy|Udemy
+greenhouse:masterclass|MasterClass
+greenhouse:grammarly|Grammarly
+greenhouse:misfitsmarket|Misfits Market
+greenhouse:everlane|Everlane
+greenhouse:bombas|Bombas
+greenhouse:carta|Carta
+greenhouse:turo|Turo
+greenhouse:lyrahealth|Lyra Health
+greenhouse:modernhealth|Modern Health
+greenhouse:cityblock|Cityblock Health
+greenhouse:komodohealth|Komodo Health
+greenhouse:tempus|Tempus
+greenhouse:hubspotjobs|HubSpot
+greenhouse:etsy|Etsy
+greenhouse:nerdwallet|NerdWallet
+greenhouse:anthropic|Anthropic
+greenhouse:scaleai|Scale AI
+greenhouse:axon|Axon
+greenhouse:relativity|Relativity Space
+greenhouse:zipline|Zipline
+greenhouse:hellofresh|HelloFresh
+greenhouse:peloton|Peloton
+greenhouse:wayfair|Wayfair
+greenhouse:chewy|Chewy
+greenhouse:goodrx|GoodRx
+greenhouse:grubhub|Grubhub
+greenhouse:dutchie|Dutchie
+greenhouse:fetchrewards|Fetch
+greenhouse:bilt|Bilt
+greenhouse:apptronik|Apptronik
+greenhouse:formlabs|Formlabs
+greenhouse:hims|Hims & Hers
+greenhouse:parachutehealth|Parachute Health
+greenhouse:tebra|Tebra
+greenhouse:crusoe|Crusoe
+greenhouse:sigmacomputing|Sigma Computing
+greenhouse:fivetran|Fivetran
+greenhouse:amplitude|Amplitude
+greenhouse:mixpanel|Mixpanel
+greenhouse:dbtlabsinc|dbt Labs
+greenhouse:airtable|Airtable
+greenhouse:intercom|Intercom
+greenhouse:lattice|Lattice
+greenhouse:justworks|Justworks
+greenhouse:bamboohr|BambooHR
+greenhouse:procore|Procore
+greenhouse:servicetitan|ServiceTitan
+greenhouse:qualtrics|Qualtrics
+greenhouse:podium81|Podium
+greenhouse:vivint|Vivint
+
+# ---------------- Lever
+lever:palantir|Palantir
+lever:spotify|Spotify
+lever:plaid|Plaid
+lever:shieldai|Shield AI
+lever:whoop|WHOOP
+lever:brightwheel|brightwheel
+lever:highspot|Highspot
+lever:outreach|Outreach
+lever:mattermost|Mattermost
+lever:zoox|Zoox
+lever:eventbrite|Eventbrite
+lever:attentive|Attentive
+lever:veeva|Veeva Systems
+lever:kpmg|KPMG
+lever:jobgether|Jobgether
+lever:welocalize|Welocalize
+lever:cscgeneration-2|CSC Generation
+lever:aircall|Aircall
+lever:netlify|Netlify
+lever:greenlight|Greenlight
+
+# ---------------- Ashby
+ashby:ramp|Ramp
+ashby:notion|Notion
+ashby:linear|Linear
+ashby:openai|OpenAI
+ashby:mercury|Mercury
+ashby:vanta|Vanta
+ashby:retool|Retool
+ashby:zapier|Zapier
+ashby:whatnot|Whatnot
+ashby:replit|Replit
+ashby:perplexity|Perplexity
+ashby:harvey|Harvey
+ashby:deel|Deel
+ashby:rippling|Rippling
+ashby:watershed|Watershed
+ashby:benchling|Benchling
+ashby:hightouch|Hightouch
+ashby:flock|Flock
+ashby:cohere|Cohere
+ashby:modal|Modal
+
+# ---------------- SmartRecruiters
+smartrecruiters:Visa|Visa
+smartrecruiters:ServiceNow|ServiceNow
+smartrecruiters:WesternDigital|Western Digital
+smartrecruiters:BoschGroup|Bosch
+smartrecruiters:Experian|Experian
+smartrecruiters:Sephora|Sephora
+smartrecruiters:IKEA|IKEA
+smartrecruiters:Equinox|Equinox
+smartrecruiters:AbbVie|AbbVie
+smartrecruiters:Skechers|Skechers
+
+# ---------------- Workday (no exact timestamps — alerts say "posting time unavailable")
+workday:nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite|NVIDIA
+workday:salesforce.wd12.myworkdayjobs.com|salesforce|External_Career_Site|Salesforce
+workday:walmart.wd5.myworkdayjobs.com|walmart|WalmartExternal|Walmart
+workday:target.wd5.myworkdayjobs.com|target|targetcareers|Target
+workday:adobe.wd5.myworkdayjobs.com|adobe|external_experienced|Adobe
+workday:intel.wd1.myworkdayjobs.com|intel|External|Intel
+workday:dell.wd1.myworkdayjobs.com|dell|External|Dell
+workday:cvshealth.wd1.myworkdayjobs.com|cvshealth|CVS_Health_Careers|CVS Health
+workday:mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers|Mastercard
+workday:capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One|Capital One
+workday:nike.wd1.myworkdayjobs.com|nike|nke|Nike
+workday:3m.wd1.myworkdayjobs.com|3m|Search|3M
+workday:medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Medtronic
+workday:generalmotors.wd5.myworkdayjobs.com|generalmotors|Careers_GM|General Motors
+workday:boeing.wd1.myworkdayjobs.com|boeing|EXTERNAL_CAREERS|Boeing
+workday:disney.wd5.myworkdayjobs.com|disneycareer|disneycareer|Disney
+workday:abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|Abbott
+workday:thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers|Thermo Fisher
+workday:illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|Illumina
+workday:zillow.wd5.myworkdayjobs.com|zillow|Zillow_Group_External|Zillow
+workday:mckesson.wd3.myworkdayjobs.com|mckesson|External_Careers|McKesson
+workday:workday.wd5.myworkdayjobs.com|workday|Workday|Workday
+workday:crowdstrike.wd5.myworkdayjobs.com|crowdstrike|crowdstrikecareers|CrowdStrike
+workday:paypal.wd1.myworkdayjobs.com|paypal|jobs|PayPal
+workday:globalhr.wd5.myworkdayjobs.com|globalhr|REC_RTX_Ext_Gateway|RTX
+workday:autodesk.wd1.myworkdayjobs.com|autodesk|Ext|Autodesk
+workday:motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|Careers|Motorola Solutions
+workday:bostonscientific.wd1.myworkdayjobs.com|bostonscientific|BSCI|Boston Scientific
+workday:cardinalhealth.wd1.myworkdayjobs.com|cardinalhealth|EXT|Cardinal Health
+workday:hp.wd5.myworkdayjobs.com|hp|ExternalCareerSite|HP

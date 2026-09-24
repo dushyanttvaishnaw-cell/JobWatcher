@@ -1,0 +1,113 @@
+# Job Watcher configuration — edit freely, then commit.
+
+[alerting]
+# Timezone used for times shown in alerts.
+timezone = "America/Los_Angeles"
+# Only alert on jobs whose ORIGINAL posting time is within this many minutes.
+max_age_minutes = 60
+# Unusually strong matches (score >= this) may be alerted up to this age.
+strong_match_max_age_minutes = 360
+strong_match_score = 78
+# Minimum score to alert at all (0-100). Moderate ~ 45, High ~ 65.
+min_score = 45
+high_score = 65
+
+[experience]
+# Jobs whose minimum required years exceed this are dropped
+# unless their score is >= strong_match_score.
+max_years = 5
+hard_max_years = 7
+
+[titles]
+# A job must match at least one of these (case-insensitive regex) in its title.
+include = [
+  'business (systems |data |intelligence |operations |process |analytics )?analyst',
+  '\bbi analyst', 'business intelligence', 'data analyst', 'analytics analyst',
+  'data (quality|operations|business) analyst', 'reporting analyst', 'decision support',
+  'operations analyst', 'operations research analyst', 'process (improvement )?analyst',
+  'continuous improvement analyst', 'operational excellence analyst', 'performance analyst',
+  'strategy analyst', 'supply chain', 'procurement analyst', 'sourcing analyst',
+  'inventory (data )?analyst', 'demand plann', 'supply plann', 'planning analyst',
+  'logistics analyst', 'transportation analyst', 'distribution analyst', 'fulfillment analyst',
+  'product (operations |data |business |strategy )?analyst', 'product operations associate',
+  'project (business )?analyst', 'project coordinator', 'pmo analyst', 'program analyst',
+  'program operations analyst', 'project operations analyst', 'analytics (associate|specialist)',
+  'insights analyst', 'revenue operations analyst', 'sales operations analyst',
+  'financial systems analyst', 'systems analyst', 'data specialist', 'kpi analyst',
+  'materials analyst', 'purchasing analyst', 'buyer/planner', 'operations associate',
+]
+# Drop the job if the title matches any of these.
+exclude = [
+  '\bmanager\b', '\bdirector\b', '\bhead of\b', '\bvp\b', 'vice president', '\bprincipal\b',
+  '\bstaff\b', '\bchief\b', '\bintern(ship)?\b', '\bco-?op\b', '\blead\b', '\barchitect\b',
+  'software engineer', 'data engineer', 'machine learning', 'scientist', '\bsr\.? manager',
+  'security analyst', 'soc analyst', 'cyber', 'penetration', 'clinical', 'nurse', 'physician',
+  'credit analyst', 'underwriter', 'investment banking', 'equity research', 'trader',
+  'legal analyst', 'paralegal', 'tax analyst', 'accountant',
+]
+
+[skills]
+# Skills Bee has. Each key is the display name; values are regexes that count as the same thing.
+"SQL" = ['\bsql\b', 't-sql', 'pl/sql', 'mysql', 'postgres']
+"Python" = ['\bpython\b', 'pandas']
+"R" = ['(?-i:\bR\b)(?![&/-])', '\brstudio\b']
+"Power BI" = ['power ?bi', '\bpbi\b']
+"DAX" = ['\bdax\b']
+"Excel" = ['\bexcel\b', 'spreadsheet', 'pivot ?tables?', 'vlookup', 'xlookup']
+"Power Query" = ['power ?query']
+"VBA / Macros" = ['\bvba\b', 'macros?']
+"Tableau" = ['tableau']
+"Data Visualization" = ['data visuali[sz]ation', 'dashboards?', 'visuali[sz]ations?']
+"Data Modeling" = ['data model(l)?ing']
+"Reporting" = ['\breporting\b', 'build(ing)? reports']
+"KPI Development" = ['\bkpis?\b', 'key performance indicators?', 'metrics']
+"Data Analysis" = ['data analy(sis|tics|ze)']
+"Business Analysis" = ['business analy(sis|tics)', 'business requirements?']
+"Business Intelligence" = ['business intelligence', '\bbi\b']
+"Requirements Analysis" = ['requirements (gathering|analysis|documentation)', 'user stories', '\bbrd\b']
+"Process Improvement" = ['process (improvement|optimi[sz]ation)', 'continuous improvement', 'streamlin']
+"Root Cause Analysis" = ['root[- ]cause']
+"Process Mapping" = ['process (mapping|maps|flows?)', 'swim ?lane', 'workflow mapping']
+"Lean Six Sigma" = ['six sigma', '\blean\b', 'kaizen', 'dmaic']
+"Stakeholder Communication" = ['stakeholders?', 'cross[- ]functional']
+"Forecasting" = ['forecast(ing)?', 'demand planning']
+"Supply Chain" = ['supply chain', 'logistics', 'distribution', 'warehous']
+"Procurement" = ['procurement', 'sourcing', 'purchasing', 'suppliers?', 'vendors?']
+"Inventory" = ['inventory']
+"Operations Analysis" = ['operations? analy', 'operational (analytics|metrics|efficiency)']
+"Data Validation" = ['data (validation|quality|integrity)']
+"SAP" = ['\bsap\b', 's/4 ?hana']
+"NetSuite" = ['netsuite']
+"Snowflake" = ['snowflake']
+"Salesforce" = ['salesforce', '\bsfdc\b']
+"Oracle" = ['\boracle\b']
+"Manhattan WMS" = ['manhattan', '\bwms\b']
+"ServiceNow" = ['servicenow']
+"SharePoint" = ['sharepoint']
+"Jira" = ['\bjira\b']
+"Agile / Scrum" = ['\bagile\b', '\bscrum\b']
+"Git" = ['\bgit\b', 'github']
+"ERP" = ['\berp\b']
+
+[gaps]
+# Common requirements Bee has NOT listed. Shown as "missing / verify" — never assumed.
+"Looker" = ['looker']
+"Alteryx" = ['alteryx']
+"dbt" = ['\bdbt\b']
+"Databricks / Spark" = ['databricks', '\bspark\b', 'pyspark']
+"AWS / Redshift" = ['\baws\b', 'redshift']
+"Azure / Synapse" = ['azure', 'synapse']
+"BigQuery / GCP" = ['bigquery', '\bgcp\b']
+"SAS" = ['\bsas\b']
+"Workday" = ['workday (hcm|financials|reporting)']
+"MBA" = ['\bmba\b']
+"PMP" = ['\bpmp\b']
+"Healthcare claims / EHR" = ['claims data', '\behr\b', '\bepic\b']
+"A/B testing / Statistics" = ['a/b test', 'experimentation', 'statistical model']
+
+[flags]
+# Requirements that depend on facts about you the agent doesn't know. Always flagged, never guessed.
+"Security clearance" = ['security clearance', 'secret clearance', '\bts/sci\b', 'active clearance']
+"US citizenship required" = ['u\.?s\.? citizen(ship)? (is )?required', 'must be a u\.?s\.? citizen']
+"No visa sponsorship" = ['(not|unable to|cannot|will not) (provide |offer )?(visa )?sponsor', 'without (the need for )?(visa )?sponsorship']
+"Travel required" = ['travel (up to )?\d{2}%']
