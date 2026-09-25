@@ -1,12 +1,12 @@
-# Job Watcher — real-time analyst job alerts
+# Job Watcher - real-time analyst job alerts
 
 Every 5 minutes, GitHub Actions polls company job boards (Greenhouse, Lever, Ashby, SmartRecruiters, Workday, plus the optional Adzuna aggregator), finds **new** Business / Data / Operations / Supply Chain / Product / Project / BI analyst roles that fit your background, and sends a push notification to your phone through the free **ntfy** app.
 
 - Uses the **original posting timestamp** from the employer's ATS whenever one exists. When a source has no exact time (Workday), the alert says `Posted: timestamp unavailable` and shows the time the watcher first detected it. The watcher never makes up a posting time.
 - Priorities: **URGENT** (≤5 min), **VERY NEW** (5–15), **RECENT** (15–60). Jobs older than 60 min are skipped unless the match is unusually strong (score ≥78, up to 6 h).
 - **No duplicates:** every job it has seen is logged in `state/seen.json`. If the same role shows up on Adzuna and on the company's ATS, you get one alert, and it uses the official application link.
-- 🔥 **Strong matches** also list ATS keywords, requirements that aren't on your profile, and a note on whether to tailor your resume.
-- ⚠️ Requirements it can't judge for you (clearance, citizenship, sponsorship, travel) are flagged for you to check. It doesn't assume anything about them.
+- **Strong matches** also list ATS keywords, requirements that aren't on your profile, and a note on whether to tailor your resume.
+- Requirements it can't judge for you (clearance, citizenship, sponsorship, travel) are flagged for you to check. It doesn't assume anything about them.
 - **Daily summary** around 7:50 PM Pacific. An **hourly watchdog** alerts you if monitoring stops. A failed cycle alerts you right away.
 - It never applies to jobs.
 
