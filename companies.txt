@@ -10,6 +10,12 @@ adzuna:analyst
 adzuna:coordinator
 adzuna:supply chain
 
+# ---------------- Remote-job boards (US-only roles kept; polled every 15–60 min)
+himalayas:all
+jobicy:usa
+remoteok:all
+wwr:all
+
 # ---------------- Greenhouse
 greenhouse:airbnb|Airbnb
 greenhouse:stripe|Stripe
@@ -111,7 +117,7 @@ greenhouse:tebra|Tebra
 # FAILED VALIDATION: greenhouse:crusoe|Crusoe
 greenhouse:sigmacomputing|Sigma Computing
 greenhouse:fivetran|Fivetran
-greenhouse:amplitude|Amplitude
+# REMOVED (board moved, failing since Sep 28): greenhouse:amplitude|Amplitude
 greenhouse:mixpanel|Mixpanel
 # FAILED VALIDATION: greenhouse:dbtlabsinc|dbt Labs
 greenhouse:airtable|Airtable
@@ -140,7 +146,7 @@ lever:zoox|Zoox
 # FAILED VALIDATION: lever:attentive|Attentive
 lever:veeva|Veeva Systems
 lever:kpmg|KPMG
-lever:jobgether|Jobgether
+# REMOVED (reposting site, not a direct employer): lever:jobgether|Jobgether
 # FAILED VALIDATION: lever:welocalize|Welocalize
 lever:cscgeneration-2|CSC Generation
 lever:aircall|Aircall

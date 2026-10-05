@@ -107,7 +107,15 @@ exclude = [
 
 [flags]
 # Requirements that depend on facts about you the agent doesn't know. Always flagged, never guessed.
-"Security clearance" = ['security clearance', 'secret clearance', '\bts/sci\b', 'active clearance']
-"US citizenship required" = ['u\.?s\.? citizen(ship)? (is )?required', 'must be a u\.?s\.? citizen']
 "No visa sponsorship" = ['(not|unable to|cannot|will not) (provide |offer )?(visa )?sponsor', 'without (the need for )?(visa )?sponsorship']
 "Travel required" = ['travel (up to )?\d{2}%']
+
+[filters]
+# Skip postings from these companies (job reposting sites / aggregators, not real employers). Case-insensitive substring match.
+block_companies = ["jobgether", "lensa", "jooble", "talent.com", "virtual vocations", "jobs via dice", "hire with jarvis", "crossover", "remotehunter"]
+
+[exclude]
+# Jobs whose description matches any of these are DROPPED (not alerted).
+"US citizenship required" = ['u\.?s\.? citizen(ship)?\s+(is\s+)?(required|mandatory)', 'must\s+(be|hold)\s+(a\s+)?u\.?s\.?\s+citizen', 'requires?\s+u\.?s\.?\s+citizenship', 'u\.?s\.?\s+citizens?\s+only', 'only\s+u\.?s\.?\s+citizens', 'citizenship\s+is\s+required', 'proof of u\.?s\.? citizenship']
+"Security clearance" = ['security clearance', 'secret clearance', '\bts/sci\b', 'active clearance', 'clearance (is )?required', 'public trust']
+"US person / ITAR" = ['\bitar\b', 'u\.?s\.? persons?\b', 'export control regulations']

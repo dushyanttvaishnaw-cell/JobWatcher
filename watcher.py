@@ -43,7 +43,8 @@ def load_config() -> dict:
     flags = re.IGNORECASE
     cfg["_title_inc"] = [re.compile(p, flags) for p in cfg["titles"]["include"]]
     cfg["_title_exc"] = [re.compile(p, flags) for p in cfg["titles"]["exclude"]]
-    for sect in ("skills", "gaps", "flags"):
+    for sect in ("skills", "gaps", "flags", "exclude"):
+        cfg.setdefault(sect, {})
         cfg["_" + sect] = {k: [re.compile(p, flags) for p in v] for k, v in cfg[sect].items()}
     return cfg
 
@@ -257,6 +258,12 @@ def fetch_workday(c: dict) -> list[dict]:
 def detail_workday(job: dict) -> None:
     d = http_json(job["detail"]).get("jobPostingInfo", {})
     job["description"] = strip_html(d.get("jobDescription"))
+    # The list view often says just "2 Locations" - replace with the real locations + country.
+    locs = [d.get("location") or ""] + list(d.get("additionalLocations") or [])
+    country = (d.get("country") or {}).get("descriptor") or ""
+    real = " / ".join(x for x in locs if x)
+    if real:
+        job["location"] = real + (f" ({country})" if country else "")
     if d.get("externalUrl"):
         job["url"] = d["externalUrl"]
     if d.get("remoteType"):
@@ -287,8 +294,105 @@ def fetch_adzuna(c: dict) -> list[dict]:
     return jobs
 
 
+
+# ---- Remote-job boards (public APIs/feeds; each asks for attribution, which the alert's Source line gives)
+US_REMOTE = re.compile(r"\b(usa|u\.s\.a?\.?|united states|us only|us-only|north america|americas)\b|^us$", re.I)
+
+
+def _remote_loc(raw: str) -> str:
+    """Normalize a remote board's region text so is_us() can read it."""
+    raw = (raw or "").strip()
+    if US_REMOTE.search(raw):
+        return f"Remote - United States ({raw})" if raw.lower() not in ("usa", "us", "united states") else "Remote - United States"
+    return f"Remote ({raw})" if raw else "Remote (region not stated)"
+
+
+def fetch_himalayas(c: dict) -> list[dict]:
+    data = http_json("https://himalayas.app/jobs/api?limit=100")
+    jobs = []
+    for j in data.get("jobs", []):
+        locs = j.get("locationRestrictions") or []
+        sal = ""
+        if j.get("minSalary"):
+            sal = f"${int(j['minSalary']):,} – ${int(j.get('maxSalary') or j['minSalary']):,} {j.get('currency') or ''}".strip()
+        jobs.append(make_job(
+            company=j.get("companyName", ""), title=(j.get("title") or "").strip(),
+            location=_remote_loc(", ".join(locs)), workplace="Remote",
+            url=j.get("applicationLink") or j.get("guid", ""), source="Himalayas (remote job board)",
+            ats="himalayas", job_id=str(j.get("guid")), posted_at=parse_ts((j.get("pubDate") or 0) * 1000),
+            ts_note="Himalayas pubDate (when Himalayas listed it)",
+            description=strip_html(j.get("description") or j.get("excerpt")), salary=sal))
+    return jobs
+
+
+def fetch_jobicy(c: dict) -> list[dict]:
+    jobs = []
+    for tag in ("analyst", "data", "operations", "supply chain"):
+        data = http_json("https://jobicy.com/api/v2/remote-jobs?" + urllib.parse.urlencode(
+            {"count": 50, "geo": "usa", "tag": tag}))
+        for j in data.get("jobs", []):
+            sal = ""
+            if j.get("annualSalaryMin"):
+                sal = f"${int(j['annualSalaryMin']):,} – ${int(j.get('annualSalaryMax') or j['annualSalaryMin']):,}"
+            jobs.append(make_job(
+                company=j.get("companyName", ""), title=html.unescape(j.get("jobTitle") or "").strip(),
+                location=_remote_loc(j.get("jobGeo", "")), workplace="Remote", url=j.get("url", ""),
+                source="Jobicy (remote job board)", ats="jobicy", job_id=str(j.get("id")),
+                posted_at=parse_ts(j.get("pubDate")), ts_note="Jobicy pubDate (when Jobicy listed it)",
+                description=strip_html(j.get("jobDescription") or j.get("jobExcerpt")), salary=sal))
+    return list({j["job_id"]: j for j in jobs}.values())
+
+
+def fetch_remoteok(c: dict) -> list[dict]:
+    jobs = []
+    for tag in ("analyst", "data", "operations"):
+        data = http_json(f"https://remoteok.com/api?tag={urllib.parse.quote(tag)}")
+        for j in data if isinstance(data, list) else []:
+            if not isinstance(j, dict) or not j.get("id"):
+                continue  # element 0 is RemoteOK's legal notice
+            sal = f"${int(j['salary_min']):,} – ${int(j.get('salary_max') or j['salary_min']):,}" if j.get("salary_min") else ""
+            jobs.append(make_job(
+                company=j.get("company", ""), title=(j.get("position") or "").strip(),
+                location=_remote_loc(j.get("location", "")), workplace="Remote",
+                url=j.get("url") or j.get("apply_url", ""), source="Remote OK (remoteok.com)", ats="remoteok",
+                job_id=str(j.get("id")), posted_at=parse_ts(j.get("date")),
+                ts_note="Remote OK date (when Remote OK listed it)",
+                description=strip_html(j.get("description")), salary=sal))
+    return list({j["job_id"]: j for j in jobs}.values())
+
+
+WWR_FEEDS = ("remote-management-and-finance-jobs", "remote-product-jobs", "remote-sales-and-marketing-jobs",
+             "all-other-remote-jobs")
+
+
+def fetch_wwr(c: dict) -> list[dict]:
+    import email.utils
+    import xml.etree.ElementTree as ET
+    jobs = []
+    for feed in WWR_FEEDS:
+        req = urllib.request.Request(f"https://weworkremotely.com/categories/{feed}.rss", headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            root = ET.fromstring(r.read())
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            company, _, position = title.partition(": ")
+            try:
+                posted = email.utils.parsedate_to_datetime(it.findtext("pubDate") or "")
+            except (TypeError, ValueError):
+                posted = None
+            link = it.findtext("link") or it.findtext("guid") or ""
+            jobs.append(make_job(
+                company=company if position else "", title=position or title,
+                location=_remote_loc(it.findtext("region") or ""), workplace="Remote", url=link,
+                source="We Work Remotely", ats="wwr", job_id=link, posted_at=posted,
+                ts_note="We Work Remotely pubDate", description=strip_html(it.findtext("description"))))
+    return jobs
+
 FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby,
-            "smartrecruiters": fetch_smartrecruiters, "workday": fetch_workday, "adzuna": fetch_adzuna}
+            "smartrecruiters": fetch_smartrecruiters, "workday": fetch_workday, "adzuna": fetch_adzuna,
+            "himalayas": fetch_himalayas, "jobicy": fetch_jobicy, "remoteok": fetch_remoteok, "wwr": fetch_wwr}
+# Shared boards are polled less often to respect their rate limits (minutes).
+POLL_EVERY = {"adzuna": 30, "himalayas": 30, "jobicy": 60, "remoteok": 30, "wwr": 15}
 DETAILS = {"greenhouse": detail_greenhouse, "smartrecruiters": detail_smartrecruiters, "workday": detail_workday}
 
 # --------------------------------------------------------------------------- filters
@@ -324,7 +428,23 @@ NON_US = ("canada", "toronto", "vancouver", "montreal", "ontario", "mexico", "br
           "south africa", "nigeria", "kenya", "egypt", "uae", "dubai", "saudi", "new zealand")
 
 
+CA_PROVINCE = re.compile(r",\s*(QC|ON|BC|AB|MB|SK|NS|NB|NL|PE)\b")
+FRENCH_WORDS = re.compile(r"\b(et|des|les|pour|vous|nous|avec|une|dans|sur|est|du|au|aux|notre|votre)\b", re.I)
+
+
+def is_non_english(job: dict) -> bool:
+    """True for postings written mainly in French/Spanish etc. (e.g. Quebec roles)."""
+    text = (job.get("title", "") + " " + job.get("description", "")[:2000])
+    words = max(1, len(text.split()))
+    return len(FRENCH_WORDS.findall(text)) / words > 0.06 or bool(
+        re.search(r"\b(coordonnateur|analyste|gestionnaire|conseiller|responsable des)\b", job.get("title", ""), re.I))
+
+
 def is_us(job: dict) -> bool:
+    loc_raw = job["location"] or ""
+    # Workday detail adds "(Canada)" etc.; any non-US country there with no US site -> drop.
+    if CA_PROVINCE.search(loc_raw) and not any(re.search(rf",\s*{ab}\b", loc_raw) for ab in US_STATES):
+        return False
     # Explicit trailing country code added from ATS metadata, e.g. "Toronto (CA)" or "Austin, TX (US)".
     cc = re.search(r"\(([A-Z]{2,3})\)\s*$", job["location"] or "")
     if cc and job.get("ats") in ("lever", "ashby") and cc.group(1) not in ("US", "USA", "HQ") and not re.search(r"\(US|USA\)", job["location"]):
@@ -350,7 +470,9 @@ def is_us(job: dict) -> bool:
     text = job.get("description", "").lower()[:4000]
     if re.search(r"(based in|located in|resident of|must reside in) (canada|the uk|india|europe|mexico)", text):
         return False
-    return "remote" in loc or loc.strip() == "" or job["ats"] == "workday"
+    # USA only: a bare "Remote"/blank location must say US somewhere in the posting to count.
+    return bool(re.search(r"\b(united states|u\.s\.|usa|us-based|us based|within the us|anywhere in the us)\b",
+                          text, re.I))
 
 
 def title_ok(cfg: dict, title: str) -> bool:
@@ -590,10 +712,18 @@ def run(dry_run: bool = False, now: dt.datetime | None = None, companies=None, f
     max_age = cfg["alerting"]["max_age_minutes"]
     strong_age = cfg["alerting"]["strong_match_max_age_minutes"]
 
-    # Adzuna is rate-limited (free tier) — poll it at most every 30 min.
-    last_adz = parse_ts(seen.get("last_adzuna"))
-    poll_adzuna = last_adz is None or (now - last_adz).total_seconds() >= 29 * 60
-    todo = [c for c in companies if c["ats"] != "adzuna" or poll_adzuna]
+    # Shared boards (Adzuna, remote-job boards) are rate-limited — poll each at most every POLL_EVERY minutes.
+    last_poll = seen.setdefault("last_poll", {})
+    if seen.get("last_adzuna") and "adzuna" not in last_poll:
+        last_poll["adzuna"] = seen["last_adzuna"]
+
+    def _due(ats: str) -> bool:
+        if ats not in POLL_EVERY:
+            return True
+        lp = parse_ts(last_poll.get(ats))
+        return lp is None or (now - lp).total_seconds() >= (POLL_EVERY[ats] - 1) * 60
+
+    todo = [c for c in companies if _due(c["ats"])]
 
     t0 = time.time()
     results: dict[str, list[dict]] = {}
@@ -613,8 +743,8 @@ def run(dry_run: bool = False, now: dt.datetime | None = None, companies=None, f
     for c in todo:
         if c["ats"] in fetchers and c["raw"] not in results:
             failed.append(c["raw"])
-    if any(c["ats"] == "adzuna" for c in todo):
-        seen["last_adzuna"] = now.isoformat()
+    for ats in {c["ats"] for c in todo if c["ats"] in POLL_EVERY}:
+        last_poll[ats] = now.isoformat()
 
     # ---- candidate selection
     candidates = []
@@ -662,8 +792,19 @@ def run(dry_run: bool = False, now: dt.datetime | None = None, companies=None, f
     alerts = []
     for c, job, age in candidates:
         sk, dk = source_key(job), dedup_key(job)
+        blocked = cfg.get("filters", {}).get("block_companies", [])
+        if any(b.lower() in (job["company"] or "").lower() for b in blocked):
+            seen["keys"][sk] = {"t": now.isoformat(), "skip": "blocked company"}
+            continue
         if not is_us(job):
             seen["keys"][sk] = {"t": now.isoformat(), "skip": "non-US"}
+            continue
+        excl = [k for k, pats in cfg.get("_exclude", {}).items() if any(p.search(job.get("description", "")) for p in pats)]
+        if excl:
+            seen["keys"][sk] = {"t": now.isoformat(), "skip": "excluded: " + ", ".join(excl)}
+            continue
+        if is_non_english(job):
+            seen["keys"][sk] = {"t": now.isoformat(), "skip": "non-English"}
             continue
         sc = score(cfg, job)
         hard = cfg["experience"]["hard_max_years"]
