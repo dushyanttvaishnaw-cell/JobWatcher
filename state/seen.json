@@ -1,160 +1,160 @@
 {
 "boards": {
-"adzuna:analyst": "2026-11-06T11:45:14.677204+00:00",
-"adzuna:coordinator": "2026-11-06T11:45:14.677204+00:00",
-"adzuna:supply chain": "2026-11-06T11:45:14.677204+00:00",
-"ashby:benchling|Benchling": "2026-11-06T12:10:13.937437+00:00",
-"ashby:cohere|Cohere": "2026-11-06T12:10:13.937437+00:00",
-"ashby:deel|Deel": "2026-11-06T12:10:13.937437+00:00",
-"ashby:flock|Flock": "2026-11-06T12:10:13.937437+00:00",
-"ashby:harvey|Harvey": "2026-11-06T12:10:13.937437+00:00",
-"ashby:hightouch|Hightouch": "2026-11-06T12:10:13.937437+00:00",
-"ashby:linear|Linear": "2026-11-06T12:10:13.937437+00:00",
-"ashby:mercury|Mercury": "2026-11-06T12:10:13.937437+00:00",
-"ashby:modal|Modal": "2026-11-06T12:10:13.937437+00:00",
-"ashby:notion|Notion": "2026-11-06T12:10:13.937437+00:00",
-"ashby:openai|OpenAI": "2026-11-06T12:10:13.937437+00:00",
-"ashby:perplexity|Perplexity": "2026-11-06T12:10:13.937437+00:00",
-"ashby:ramp|Ramp": "2026-11-06T12:10:13.937437+00:00",
-"ashby:replit|Replit": "2026-11-06T12:10:13.937437+00:00",
-"ashby:vanta|Vanta": "2026-11-06T12:10:13.937437+00:00",
-"ashby:watershed|Watershed": "2026-11-06T12:10:13.937437+00:00",
-"ashby:zapier|Zapier": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:affirm|Affirm": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:airbnb|Airbnb": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:airtable|Airtable": "2026-11-06T12:10:13.937437+00:00",
+"adzuna:analyst": "2026-11-06T12:15:15.891946+00:00",
+"adzuna:coordinator": "2026-11-06T12:15:15.891946+00:00",
+"adzuna:supply chain": "2026-11-06T12:15:15.891946+00:00",
+"ashby:benchling|Benchling": "2026-11-06T12:15:15.891946+00:00",
+"ashby:cohere|Cohere": "2026-11-06T12:15:15.891946+00:00",
+"ashby:deel|Deel": "2026-11-06T12:15:15.891946+00:00",
+"ashby:flock|Flock": "2026-11-06T12:15:15.891946+00:00",
+"ashby:harvey|Harvey": "2026-11-06T12:15:15.891946+00:00",
+"ashby:hightouch|Hightouch": "2026-11-06T12:15:15.891946+00:00",
+"ashby:linear|Linear": "2026-11-06T12:15:15.891946+00:00",
+"ashby:mercury|Mercury": "2026-11-06T12:15:15.891946+00:00",
+"ashby:modal|Modal": "2026-11-06T12:15:15.891946+00:00",
+"ashby:notion|Notion": "2026-11-06T12:15:15.891946+00:00",
+"ashby:openai|OpenAI": "2026-11-06T12:15:15.891946+00:00",
+"ashby:perplexity|Perplexity": "2026-11-06T12:15:15.891946+00:00",
+"ashby:ramp|Ramp": "2026-11-06T12:15:15.891946+00:00",
+"ashby:replit|Replit": "2026-11-06T12:15:15.891946+00:00",
+"ashby:vanta|Vanta": "2026-11-06T12:15:15.891946+00:00",
+"ashby:watershed|Watershed": "2026-11-06T12:15:15.891946+00:00",
+"ashby:zapier|Zapier": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:affirm|Affirm": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:airbnb|Airbnb": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:airtable|Airtable": "2026-11-06T12:15:15.891946+00:00",
 "greenhouse:amplitude|Amplitude": "2026-09-28T18:40:14.396884+00:00",
-"greenhouse:andurilindustries|Anduril": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:anthropic|Anthropic": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:apptronik|Apptronik": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:asana|Asana": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:attentive|Attentive": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:axon|Axon": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:betterment|Betterment": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:bombas|Bombas": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:brex|Brex": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:calendly|Calendly": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:carta|Carta": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:chime|Chime": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:cloudflare|Cloudflare": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:coinbase|Coinbase": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:coursera|Coursera": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:databricks|Databricks": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:datadog|Datadog": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:discord|Discord": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:doordashusa|DoorDash": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:dropbox|Dropbox": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:duolingo|Duolingo": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:elastic|Elastic": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:everlane|Everlane": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:faire|Faire": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:figma|Figma": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:fivetran|Fivetran": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:flatironhealth|Flatiron Health": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:flexport|Flexport": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:formlabs|Formlabs": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:gemini|Gemini": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:gitlab|GitLab": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:gomotive|Motive": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:gusto|Gusto": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:hellofresh|HelloFresh": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:hubspotjobs|HubSpot": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:instacart|Instacart": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:intercom|Intercom": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:justworks|Justworks": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:komodohealth|Komodo Health": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:lattice|Lattice": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:lucidmotors|Lucid Motors": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:lyft|Lyft": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:masterclass|MasterClass": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:misfitsmarket|Misfits Market": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:mixpanel|Mixpanel": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:modernhealth|Modern Health": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:mongodb|MongoDB": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:nextdoor|Nextdoor": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:nuro|Nuro": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:okta|Okta": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:oscar|Oscar Health": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:parachutehealth|Parachute Health": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:peloton|Peloton": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:pinterest|Pinterest": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:podium81|Podium": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:qualtrics|Qualtrics": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:reddit|Reddit": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:relativity|Relativity Space": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:robinhood|Robinhood": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:roblox|Roblox": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:samsara|Samsara": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:scaleai|Scale AI": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:sigmacomputing|Sigma Computing": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:sofi|SoFi": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:spacex|SpaceX": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:squarespace|Squarespace": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:stitchfix|Stitch Fix": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:stripe|Stripe": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:sweetgreen|Sweetgreen": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:tebra|Tebra": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:toast|Toast": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:twilio|Twilio": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:udemy|Udemy": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:vercel|Vercel": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:verkada|Verkada": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:waymo|Waymo": "2026-11-06T12:10:13.937437+00:00",
-"greenhouse:zocdoc|Zocdoc": "2026-11-06T12:10:13.937437+00:00",
-"himalayas:all": "2026-11-06T11:45:14.677204+00:00",
+"greenhouse:andurilindustries|Anduril": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:anthropic|Anthropic": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:apptronik|Apptronik": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:asana|Asana": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:attentive|Attentive": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:axon|Axon": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:betterment|Betterment": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:bombas|Bombas": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:brex|Brex": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:calendly|Calendly": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:carta|Carta": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:chime|Chime": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:cloudflare|Cloudflare": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:coinbase|Coinbase": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:coursera|Coursera": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:databricks|Databricks": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:datadog|Datadog": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:discord|Discord": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:doordashusa|DoorDash": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:dropbox|Dropbox": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:duolingo|Duolingo": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:elastic|Elastic": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:everlane|Everlane": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:faire|Faire": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:figma|Figma": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:fivetran|Fivetran": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:flatironhealth|Flatiron Health": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:flexport|Flexport": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:formlabs|Formlabs": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:gemini|Gemini": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:gitlab|GitLab": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:gomotive|Motive": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:gusto|Gusto": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:hellofresh|HelloFresh": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:hubspotjobs|HubSpot": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:instacart|Instacart": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:intercom|Intercom": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:justworks|Justworks": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:komodohealth|Komodo Health": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:lattice|Lattice": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:lucidmotors|Lucid Motors": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:lyft|Lyft": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:masterclass|MasterClass": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:misfitsmarket|Misfits Market": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:mixpanel|Mixpanel": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:modernhealth|Modern Health": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:mongodb|MongoDB": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:nextdoor|Nextdoor": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:nuro|Nuro": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:okta|Okta": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:oscar|Oscar Health": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:parachutehealth|Parachute Health": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:peloton|Peloton": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:pinterest|Pinterest": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:podium81|Podium": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:qualtrics|Qualtrics": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:reddit|Reddit": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:relativity|Relativity Space": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:robinhood|Robinhood": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:roblox|Roblox": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:samsara|Samsara": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:scaleai|Scale AI": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:sigmacomputing|Sigma Computing": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:sofi|SoFi": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:spacex|SpaceX": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:squarespace|Squarespace": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:stitchfix|Stitch Fix": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:stripe|Stripe": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:sweetgreen|Sweetgreen": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:tebra|Tebra": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:toast|Toast": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:twilio|Twilio": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:udemy|Udemy": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:vercel|Vercel": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:verkada|Verkada": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:waymo|Waymo": "2026-11-06T12:15:15.891946+00:00",
+"greenhouse:zocdoc|Zocdoc": "2026-11-06T12:15:15.891946+00:00",
+"himalayas:all": "2026-11-06T12:15:15.891946+00:00",
 "jobicy:usa": "2026-11-06T11:35:12.000569+00:00",
 "lever:aircall|Aircall": "2026-11-02T01:30:17.066178+00:00",
-"lever:brightwheel|brightwheel": "2026-11-06T12:10:13.937437+00:00",
-"lever:cscgeneration-2|CSC Generation": "2026-11-06T12:10:13.937437+00:00",
-"lever:greenlight|Greenlight": "2026-11-06T12:10:13.937437+00:00",
-"lever:highspot|Highspot": "2026-11-06T12:10:13.937437+00:00",
+"lever:brightwheel|brightwheel": "2026-11-06T12:15:15.891946+00:00",
+"lever:cscgeneration-2|CSC Generation": "2026-11-06T12:15:15.891946+00:00",
+"lever:greenlight|Greenlight": "2026-11-06T12:15:15.891946+00:00",
+"lever:highspot|Highspot": "2026-11-06T12:15:15.891946+00:00",
 "lever:jobgether|Jobgether": "2026-10-05T20:56:35.253653+00:00",
-"lever:kpmg|KPMG": "2026-11-06T12:10:13.937437+00:00",
-"lever:outreach|Outreach": "2026-11-06T12:10:13.937437+00:00",
-"lever:palantir|Palantir": "2026-11-06T12:10:13.937437+00:00",
-"lever:shieldai|Shield AI": "2026-11-06T12:10:13.937437+00:00",
-"lever:spotify|Spotify": "2026-11-06T12:10:13.937437+00:00",
-"lever:veeva|Veeva Systems": "2026-11-06T12:10:13.937437+00:00",
-"lever:whoop|WHOOP": "2026-11-06T12:10:13.937437+00:00",
-"lever:zoox|Zoox": "2026-11-06T12:10:13.937437+00:00",
-"remoteok:all": "2026-11-06T11:45:14.677204+00:00",
-"smartrecruiters:AbbVie|AbbVie": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:BoschGroup|Bosch": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:Equinox|Equinox": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:Experian|Experian": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:IKEA|IKEA": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:Sephora|Sephora": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:ServiceNow|ServiceNow": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:Skechers|Skechers": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:Visa|Visa": "2026-11-06T12:10:13.937437+00:00",
-"smartrecruiters:WesternDigital|Western Digital": "2026-11-06T12:10:13.937437+00:00",
-"workday:3m.wd1.myworkdayjobs.com|3m|Search|3M": "2026-11-06T12:10:13.937437+00:00",
-"workday:abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|Abbott": "2026-11-06T12:10:13.937437+00:00",
-"workday:adobe.wd5.myworkdayjobs.com|adobe|external_experienced|Adobe": "2026-11-06T12:10:13.937437+00:00",
-"workday:autodesk.wd1.myworkdayjobs.com|autodesk|Ext|Autodesk": "2026-11-06T12:10:13.937437+00:00",
-"workday:boeing.wd1.myworkdayjobs.com|boeing|EXTERNAL_CAREERS|Boeing": "2026-11-06T12:10:13.937437+00:00",
-"workday:capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One|Capital One": "2026-11-06T12:10:13.937437+00:00",
-"workday:cardinalhealth.wd1.myworkdayjobs.com|cardinalhealth|EXT|Cardinal Health": "2026-11-06T12:10:13.937437+00:00",
-"workday:crowdstrike.wd5.myworkdayjobs.com|crowdstrike|crowdstrikecareers|CrowdStrike": "2026-11-06T12:10:13.937437+00:00",
-"workday:cvshealth.wd1.myworkdayjobs.com|cvshealth|CVS_Health_Careers|CVS Health": "2026-11-06T12:10:13.937437+00:00",
-"workday:generalmotors.wd5.myworkdayjobs.com|generalmotors|Careers_GM|General Motors": "2026-11-06T12:10:13.937437+00:00",
-"workday:globalhr.wd5.myworkdayjobs.com|globalhr|REC_RTX_Ext_Gateway|RTX": "2026-11-06T12:10:13.937437+00:00",
-"workday:hp.wd5.myworkdayjobs.com|hp|ExternalCareerSite|HP": "2026-11-06T12:10:13.937437+00:00",
-"workday:illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|Illumina": "2026-11-06T12:10:13.937437+00:00",
-"workday:intel.wd1.myworkdayjobs.com|intel|External|Intel": "2026-11-06T12:10:13.937437+00:00",
-"workday:mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers|Mastercard": "2026-11-06T12:10:13.937437+00:00",
-"workday:mckesson.wd3.myworkdayjobs.com|mckesson|External_Careers|McKesson": "2026-11-06T12:10:13.937437+00:00",
-"workday:medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Medtronic": "2026-11-06T12:10:13.937437+00:00",
-"workday:motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|Careers|Motorola Solutions": "2026-11-06T12:10:13.937437+00:00",
-"workday:nike.wd1.myworkdayjobs.com|nike|nke|Nike": "2026-11-06T12:10:13.937437+00:00",
-"workday:nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite|NVIDIA": "2026-11-06T12:10:13.937437+00:00",
-"workday:paypal.wd1.myworkdayjobs.com|paypal|jobs|PayPal": "2026-11-06T12:10:13.937437+00:00",
-"workday:salesforce.wd12.myworkdayjobs.com|salesforce|External_Career_Site|Salesforce": "2026-11-06T12:10:13.937437+00:00",
-"workday:target.wd5.myworkdayjobs.com|target|targetcareers|Target": "2026-11-06T12:10:13.937437+00:00",
-"workday:thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers|Thermo Fisher": "2026-11-06T12:10:13.937437+00:00",
-"workday:workday.wd5.myworkdayjobs.com|workday|Workday|Workday": "2026-11-06T12:10:13.937437+00:00",
-"workday:zillow.wd5.myworkdayjobs.com|zillow|Zillow_Group_External|Zillow": "2026-11-06T12:10:13.937437+00:00",
-"wwr:all": "2026-11-06T12:00:20.455474+00:00"
+"lever:kpmg|KPMG": "2026-11-06T12:15:15.891946+00:00",
+"lever:outreach|Outreach": "2026-11-06T12:15:15.891946+00:00",
+"lever:palantir|Palantir": "2026-11-06T12:15:15.891946+00:00",
+"lever:shieldai|Shield AI": "2026-11-06T12:15:15.891946+00:00",
+"lever:spotify|Spotify": "2026-11-06T12:15:15.891946+00:00",
+"lever:veeva|Veeva Systems": "2026-11-06T12:15:15.891946+00:00",
+"lever:whoop|WHOOP": "2026-11-06T12:15:15.891946+00:00",
+"lever:zoox|Zoox": "2026-11-06T12:15:15.891946+00:00",
+"remoteok:all": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:AbbVie|AbbVie": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:BoschGroup|Bosch": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:Equinox|Equinox": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:Experian|Experian": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:IKEA|IKEA": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:Sephora|Sephora": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:ServiceNow|ServiceNow": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:Skechers|Skechers": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:Visa|Visa": "2026-11-06T12:15:15.891946+00:00",
+"smartrecruiters:WesternDigital|Western Digital": "2026-11-06T12:15:15.891946+00:00",
+"workday:3m.wd1.myworkdayjobs.com|3m|Search|3M": "2026-11-06T12:15:15.891946+00:00",
+"workday:abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|Abbott": "2026-11-06T12:15:15.891946+00:00",
+"workday:adobe.wd5.myworkdayjobs.com|adobe|external_experienced|Adobe": "2026-11-06T12:15:15.891946+00:00",
+"workday:autodesk.wd1.myworkdayjobs.com|autodesk|Ext|Autodesk": "2026-11-06T12:15:15.891946+00:00",
+"workday:boeing.wd1.myworkdayjobs.com|boeing|EXTERNAL_CAREERS|Boeing": "2026-11-06T12:15:15.891946+00:00",
+"workday:capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One|Capital One": "2026-11-06T12:15:15.891946+00:00",
+"workday:cardinalhealth.wd1.myworkdayjobs.com|cardinalhealth|EXT|Cardinal Health": "2026-11-06T12:15:15.891946+00:00",
+"workday:crowdstrike.wd5.myworkdayjobs.com|crowdstrike|crowdstrikecareers|CrowdStrike": "2026-11-06T12:15:15.891946+00:00",
+"workday:cvshealth.wd1.myworkdayjobs.com|cvshealth|CVS_Health_Careers|CVS Health": "2026-11-06T12:15:15.891946+00:00",
+"workday:generalmotors.wd5.myworkdayjobs.com|generalmotors|Careers_GM|General Motors": "2026-11-06T12:15:15.891946+00:00",
+"workday:globalhr.wd5.myworkdayjobs.com|globalhr|REC_RTX_Ext_Gateway|RTX": "2026-11-06T12:15:15.891946+00:00",
+"workday:hp.wd5.myworkdayjobs.com|hp|ExternalCareerSite|HP": "2026-11-06T12:15:15.891946+00:00",
+"workday:illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|Illumina": "2026-11-06T12:15:15.891946+00:00",
+"workday:intel.wd1.myworkdayjobs.com|intel|External|Intel": "2026-11-06T12:15:15.891946+00:00",
+"workday:mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers|Mastercard": "2026-11-06T12:15:15.891946+00:00",
+"workday:mckesson.wd3.myworkdayjobs.com|mckesson|External_Careers|McKesson": "2026-11-06T12:15:15.891946+00:00",
+"workday:medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Medtronic": "2026-11-06T12:15:15.891946+00:00",
+"workday:motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|Careers|Motorola Solutions": "2026-11-06T12:15:15.891946+00:00",
+"workday:nike.wd1.myworkdayjobs.com|nike|nke|Nike": "2026-11-06T12:15:15.891946+00:00",
+"workday:nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite|NVIDIA": "2026-11-06T12:15:15.891946+00:00",
+"workday:paypal.wd1.myworkdayjobs.com|paypal|jobs|PayPal": "2026-11-06T12:15:15.891946+00:00",
+"workday:salesforce.wd12.myworkdayjobs.com|salesforce|External_Career_Site|Salesforce": "2026-11-06T12:15:15.891946+00:00",
+"workday:target.wd5.myworkdayjobs.com|target|targetcareers|Target": "2026-11-06T12:15:15.891946+00:00",
+"workday:thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers|Thermo Fisher": "2026-11-06T12:15:15.891946+00:00",
+"workday:workday.wd5.myworkdayjobs.com|workday|Workday|Workday": "2026-11-06T12:15:15.891946+00:00",
+"workday:zillow.wd5.myworkdayjobs.com|zillow|Zillow_Group_External|Zillow": "2026-11-06T12:15:15.891946+00:00",
+"wwr:all": "2026-11-06T12:15:15.891946+00:00"
 },
 "keys": {
 "24 seven talent|procurement analyst supply chain|ny state campus": {
@@ -584723,6 +584723,10 @@
 "skip": "title",
 "t": "2026-11-06T11:45:14.677204+00:00"
 },
+"adzuna:5955560717": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
 "adzuna:5955560766": {
 "skip": "title",
 "t": "2026-11-06T11:45:14.677204+00:00"
@@ -584758,6 +584762,502 @@
 "adzuna:5955561267": {
 "skip": "title",
 "t": "2026-11-06T11:45:14.677204+00:00"
+},
+"adzuna:5955561690": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955561906": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955564258": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955566274": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955570264": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955570737": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955571776": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955571787": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955572457": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955576919": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955580318": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955586393": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955589018": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955593013": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955595073": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955595491": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597256": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597262": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597268": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597309": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597384": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597395": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597520": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597612": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597641": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597692": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597721": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597779": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597783": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955597841": {
+"skip": "excluded: Security clearance",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598385": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598393": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598406": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598618": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598779": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955598845": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599033": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599053": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599055": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599082": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599093": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599102": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599112": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599123": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599124": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599137": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599141": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599142": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599144": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599146": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599151": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599154": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599159": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599219": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599223": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599235": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599271": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599338": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599372": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599376": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599602": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599618": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599674": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599720": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599817": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599882": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599883": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599894": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599898": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599903": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599907": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599913": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599921": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599937": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599944": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599950": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599956": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599960": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599980": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955599992": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600002": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600009": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600016": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600019": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600039": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600077": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600112": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600164": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600210": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600258": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600270": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600277": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600355": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600369": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600421": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600422": {
+"skip": "old",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600427": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600468": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600476": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600478": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600484": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600491": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600619": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600698": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600763": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600788": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600797": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600828": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955600979": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955601165": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955601277": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955601380": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955601476": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955601581": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602021": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602220": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602221": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602583": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602644": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602658": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602703": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602756": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602805": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
+},
+"adzuna:5955602920": {
+"skip": "title",
+"t": "2026-11-06T12:15:15.891946+00:00"
 },
 "affirm|customer operations associate i|remote us": {
 "alerted": true,
@@ -860406,10 +860906,10 @@
 },
 "last_adzuna": "2026-10-05T20:56:35.253653+00:00",
 "last_poll": {
-"adzuna": "2026-11-06T11:45:14.677204+00:00",
-"himalayas": "2026-11-06T11:45:14.677204+00:00",
+"adzuna": "2026-11-06T12:15:15.891946+00:00",
+"himalayas": "2026-11-06T12:15:15.891946+00:00",
 "jobicy": "2026-11-06T11:35:12.000569+00:00",
-"remoteok": "2026-11-06T11:45:14.677204+00:00",
-"wwr": "2026-11-06T12:00:20.455474+00:00"
+"remoteok": "2026-11-06T12:15:15.891946+00:00",
+"wwr": "2026-11-06T12:15:15.891946+00:00"
 }
 }
