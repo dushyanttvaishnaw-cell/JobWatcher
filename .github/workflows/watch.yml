@@ -38,8 +38,11 @@ jobs:
           git add state/
           if ! git diff --cached --quiet; then
             git commit -q -m "watcher state $(date -u +%FT%TZ)"
-            git pull -q --rebase -X ours origin "${GITHUB_REF_NAME}" || true
-            git push -q
+            for i in 1 2 3 4 5; do
+              git pull -q --rebase -X ours origin "${GITHUB_REF_NAME}" && git push -q && break
+              [ "$i" = 5 ] && exit 1
+              sleep $((i * 3))
+            done
           fi
 
       - name: Heartbeat (optional, healthchecks.io)
