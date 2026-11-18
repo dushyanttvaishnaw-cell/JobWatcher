@@ -1,160 +1,160 @@
 {
 "boards": {
-"adzuna:analyst": "2026-11-18T21:40:16.237407+00:00",
-"adzuna:coordinator": "2026-11-18T21:40:16.237407+00:00",
-"adzuna:supply chain": "2026-11-18T21:40:16.237407+00:00",
-"ashby:benchling|Benchling": "2026-11-18T22:05:15.502344+00:00",
-"ashby:cohere|Cohere": "2026-11-18T22:05:15.502344+00:00",
-"ashby:deel|Deel": "2026-11-18T22:05:15.502344+00:00",
-"ashby:flock|Flock": "2026-11-18T22:05:15.502344+00:00",
-"ashby:harvey|Harvey": "2026-11-18T22:05:15.502344+00:00",
-"ashby:hightouch|Hightouch": "2026-11-18T22:05:15.502344+00:00",
-"ashby:linear|Linear": "2026-11-18T22:05:15.502344+00:00",
-"ashby:mercury|Mercury": "2026-11-18T22:05:15.502344+00:00",
-"ashby:modal|Modal": "2026-11-18T22:05:15.502344+00:00",
-"ashby:notion|Notion": "2026-11-18T22:05:15.502344+00:00",
-"ashby:openai|OpenAI": "2026-11-18T22:05:15.502344+00:00",
-"ashby:perplexity|Perplexity": "2026-11-18T22:05:15.502344+00:00",
-"ashby:ramp|Ramp": "2026-11-18T22:05:15.502344+00:00",
-"ashby:replit|Replit": "2026-11-18T22:05:15.502344+00:00",
-"ashby:vanta|Vanta": "2026-11-18T22:05:15.502344+00:00",
-"ashby:watershed|Watershed": "2026-11-18T22:05:15.502344+00:00",
-"ashby:zapier|Zapier": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:affirm|Affirm": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:airbnb|Airbnb": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:airtable|Airtable": "2026-11-18T22:05:15.502344+00:00",
+"adzuna:analyst": "2026-11-18T22:10:17.436776+00:00",
+"adzuna:coordinator": "2026-11-18T22:10:17.436776+00:00",
+"adzuna:supply chain": "2026-11-18T22:10:17.436776+00:00",
+"ashby:benchling|Benchling": "2026-11-18T22:10:17.436776+00:00",
+"ashby:cohere|Cohere": "2026-11-18T22:10:17.436776+00:00",
+"ashby:deel|Deel": "2026-11-18T22:10:17.436776+00:00",
+"ashby:flock|Flock": "2026-11-18T22:10:17.436776+00:00",
+"ashby:harvey|Harvey": "2026-11-18T22:10:17.436776+00:00",
+"ashby:hightouch|Hightouch": "2026-11-18T22:10:17.436776+00:00",
+"ashby:linear|Linear": "2026-11-18T22:10:17.436776+00:00",
+"ashby:mercury|Mercury": "2026-11-18T22:10:17.436776+00:00",
+"ashby:modal|Modal": "2026-11-18T22:10:17.436776+00:00",
+"ashby:notion|Notion": "2026-11-18T22:10:17.436776+00:00",
+"ashby:openai|OpenAI": "2026-11-18T22:10:17.436776+00:00",
+"ashby:perplexity|Perplexity": "2026-11-18T22:10:17.436776+00:00",
+"ashby:ramp|Ramp": "2026-11-18T22:10:17.436776+00:00",
+"ashby:replit|Replit": "2026-11-18T22:10:17.436776+00:00",
+"ashby:vanta|Vanta": "2026-11-18T22:10:17.436776+00:00",
+"ashby:watershed|Watershed": "2026-11-18T22:10:17.436776+00:00",
+"ashby:zapier|Zapier": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:affirm|Affirm": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:airbnb|Airbnb": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:airtable|Airtable": "2026-11-18T22:10:17.436776+00:00",
 "greenhouse:amplitude|Amplitude": "2026-09-28T18:40:14.396884+00:00",
-"greenhouse:andurilindustries|Anduril": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:anthropic|Anthropic": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:apptronik|Apptronik": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:asana|Asana": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:attentive|Attentive": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:axon|Axon": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:betterment|Betterment": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:bombas|Bombas": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:brex|Brex": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:calendly|Calendly": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:carta|Carta": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:chime|Chime": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:cloudflare|Cloudflare": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:coinbase|Coinbase": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:coursera|Coursera": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:databricks|Databricks": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:datadog|Datadog": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:discord|Discord": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:doordashusa|DoorDash": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:dropbox|Dropbox": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:duolingo|Duolingo": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:elastic|Elastic": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:everlane|Everlane": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:faire|Faire": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:figma|Figma": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:fivetran|Fivetran": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:flatironhealth|Flatiron Health": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:flexport|Flexport": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:formlabs|Formlabs": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:gemini|Gemini": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:gitlab|GitLab": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:gomotive|Motive": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:gusto|Gusto": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:hellofresh|HelloFresh": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:hubspotjobs|HubSpot": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:instacart|Instacart": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:intercom|Intercom": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:justworks|Justworks": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:komodohealth|Komodo Health": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:lattice|Lattice": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:lucidmotors|Lucid Motors": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:lyft|Lyft": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:masterclass|MasterClass": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:misfitsmarket|Misfits Market": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:mixpanel|Mixpanel": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:modernhealth|Modern Health": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:mongodb|MongoDB": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:nextdoor|Nextdoor": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:nuro|Nuro": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:okta|Okta": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:oscar|Oscar Health": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:parachutehealth|Parachute Health": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:peloton|Peloton": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:pinterest|Pinterest": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:podium81|Podium": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:qualtrics|Qualtrics": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:reddit|Reddit": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:relativity|Relativity Space": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:robinhood|Robinhood": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:roblox|Roblox": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:samsara|Samsara": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:scaleai|Scale AI": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:sigmacomputing|Sigma Computing": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:sofi|SoFi": "2026-11-18T22:05:15.502344+00:00",
+"greenhouse:andurilindustries|Anduril": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:anthropic|Anthropic": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:apptronik|Apptronik": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:asana|Asana": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:attentive|Attentive": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:axon|Axon": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:betterment|Betterment": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:bombas|Bombas": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:brex|Brex": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:calendly|Calendly": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:carta|Carta": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:chime|Chime": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:cloudflare|Cloudflare": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:coinbase|Coinbase": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:coursera|Coursera": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:databricks|Databricks": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:datadog|Datadog": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:discord|Discord": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:doordashusa|DoorDash": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:dropbox|Dropbox": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:duolingo|Duolingo": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:elastic|Elastic": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:everlane|Everlane": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:faire|Faire": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:figma|Figma": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:fivetran|Fivetran": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:flatironhealth|Flatiron Health": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:flexport|Flexport": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:formlabs|Formlabs": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:gemini|Gemini": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:gitlab|GitLab": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:gomotive|Motive": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:gusto|Gusto": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:hellofresh|HelloFresh": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:hubspotjobs|HubSpot": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:instacart|Instacart": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:intercom|Intercom": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:justworks|Justworks": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:komodohealth|Komodo Health": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:lattice|Lattice": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:lucidmotors|Lucid Motors": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:lyft|Lyft": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:masterclass|MasterClass": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:misfitsmarket|Misfits Market": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:mixpanel|Mixpanel": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:modernhealth|Modern Health": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:mongodb|MongoDB": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:nextdoor|Nextdoor": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:nuro|Nuro": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:okta|Okta": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:oscar|Oscar Health": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:parachutehealth|Parachute Health": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:peloton|Peloton": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:pinterest|Pinterest": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:podium81|Podium": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:qualtrics|Qualtrics": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:reddit|Reddit": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:relativity|Relativity Space": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:robinhood|Robinhood": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:roblox|Roblox": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:samsara|Samsara": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:scaleai|Scale AI": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:sigmacomputing|Sigma Computing": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:sofi|SoFi": "2026-11-18T22:10:17.436776+00:00",
 "greenhouse:spacex|SpaceX": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:squarespace|Squarespace": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:stitchfix|Stitch Fix": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:stripe|Stripe": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:sweetgreen|Sweetgreen": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:tebra|Tebra": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:toast|Toast": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:twilio|Twilio": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:udemy|Udemy": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:vercel|Vercel": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:verkada|Verkada": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:waymo|Waymo": "2026-11-18T22:05:15.502344+00:00",
-"greenhouse:zocdoc|Zocdoc": "2026-11-18T22:05:15.502344+00:00",
-"himalayas:all": "2026-11-18T21:40:16.237407+00:00",
+"greenhouse:squarespace|Squarespace": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:stitchfix|Stitch Fix": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:stripe|Stripe": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:sweetgreen|Sweetgreen": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:tebra|Tebra": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:toast|Toast": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:twilio|Twilio": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:udemy|Udemy": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:vercel|Vercel": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:verkada|Verkada": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:waymo|Waymo": "2026-11-18T22:10:17.436776+00:00",
+"greenhouse:zocdoc|Zocdoc": "2026-11-18T22:10:17.436776+00:00",
+"himalayas:all": "2026-11-18T22:10:17.436776+00:00",
 "jobicy:usa": "2026-11-18T22:00:22.501087+00:00",
 "lever:aircall|Aircall": "2026-11-02T01:30:17.066178+00:00",
-"lever:brightwheel|brightwheel": "2026-11-18T22:05:15.502344+00:00",
-"lever:cscgeneration-2|CSC Generation": "2026-11-18T22:00:22.501087+00:00",
-"lever:greenlight|Greenlight": "2026-11-18T22:05:15.502344+00:00",
-"lever:highspot|Highspot": "2026-11-18T22:05:15.502344+00:00",
+"lever:brightwheel|brightwheel": "2026-11-18T22:10:17.436776+00:00",
+"lever:cscgeneration-2|CSC Generation": "2026-11-18T22:10:17.436776+00:00",
+"lever:greenlight|Greenlight": "2026-11-18T22:10:17.436776+00:00",
+"lever:highspot|Highspot": "2026-11-18T22:10:17.436776+00:00",
 "lever:jobgether|Jobgether": "2026-10-05T20:56:35.253653+00:00",
-"lever:kpmg|KPMG": "2026-11-18T22:05:15.502344+00:00",
-"lever:outreach|Outreach": "2026-11-18T22:05:15.502344+00:00",
-"lever:palantir|Palantir": "2026-11-18T22:05:15.502344+00:00",
-"lever:shieldai|Shield AI": "2026-11-18T22:05:15.502344+00:00",
-"lever:spotify|Spotify": "2026-11-18T22:05:15.502344+00:00",
-"lever:veeva|Veeva Systems": "2026-11-18T22:05:15.502344+00:00",
-"lever:whoop|WHOOP": "2026-11-18T22:05:15.502344+00:00",
-"lever:zoox|Zoox": "2026-11-18T22:05:15.502344+00:00",
-"remoteok:all": "2026-11-18T21:40:16.237407+00:00",
-"smartrecruiters:AbbVie|AbbVie": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:BoschGroup|Bosch": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:Equinox|Equinox": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:Experian|Experian": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:IKEA|IKEA": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:Sephora|Sephora": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:ServiceNow|ServiceNow": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:Skechers|Skechers": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:Visa|Visa": "2026-11-18T22:05:15.502344+00:00",
-"smartrecruiters:WesternDigital|Western Digital": "2026-11-18T22:05:15.502344+00:00",
-"workday:3m.wd1.myworkdayjobs.com|3m|Search|3M": "2026-11-18T22:05:15.502344+00:00",
-"workday:abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|Abbott": "2026-11-18T22:05:15.502344+00:00",
-"workday:adobe.wd5.myworkdayjobs.com|adobe|external_experienced|Adobe": "2026-11-18T22:05:15.502344+00:00",
-"workday:autodesk.wd1.myworkdayjobs.com|autodesk|Ext|Autodesk": "2026-11-18T22:05:15.502344+00:00",
-"workday:boeing.wd1.myworkdayjobs.com|boeing|EXTERNAL_CAREERS|Boeing": "2026-11-18T22:05:15.502344+00:00",
-"workday:capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One|Capital One": "2026-11-18T22:05:15.502344+00:00",
-"workday:cardinalhealth.wd1.myworkdayjobs.com|cardinalhealth|EXT|Cardinal Health": "2026-11-18T22:05:15.502344+00:00",
-"workday:crowdstrike.wd5.myworkdayjobs.com|crowdstrike|crowdstrikecareers|CrowdStrike": "2026-11-18T22:05:15.502344+00:00",
-"workday:cvshealth.wd1.myworkdayjobs.com|cvshealth|CVS_Health_Careers|CVS Health": "2026-11-18T22:05:15.502344+00:00",
-"workday:generalmotors.wd5.myworkdayjobs.com|generalmotors|Careers_GM|General Motors": "2026-11-18T22:05:15.502344+00:00",
-"workday:globalhr.wd5.myworkdayjobs.com|globalhr|REC_RTX_Ext_Gateway|RTX": "2026-11-18T22:05:15.502344+00:00",
-"workday:hp.wd5.myworkdayjobs.com|hp|ExternalCareerSite|HP": "2026-11-18T22:05:15.502344+00:00",
-"workday:illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|Illumina": "2026-11-18T22:05:15.502344+00:00",
-"workday:intel.wd1.myworkdayjobs.com|intel|External|Intel": "2026-11-18T22:05:15.502344+00:00",
-"workday:mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers|Mastercard": "2026-11-18T22:05:15.502344+00:00",
-"workday:mckesson.wd3.myworkdayjobs.com|mckesson|External_Careers|McKesson": "2026-11-18T22:05:15.502344+00:00",
-"workday:medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Medtronic": "2026-11-18T22:05:15.502344+00:00",
-"workday:motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|Careers|Motorola Solutions": "2026-11-18T22:05:15.502344+00:00",
-"workday:nike.wd1.myworkdayjobs.com|nike|nke|Nike": "2026-11-18T22:05:15.502344+00:00",
-"workday:nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite|NVIDIA": "2026-11-18T22:05:15.502344+00:00",
-"workday:paypal.wd1.myworkdayjobs.com|paypal|jobs|PayPal": "2026-11-18T22:05:15.502344+00:00",
-"workday:salesforce.wd12.myworkdayjobs.com|salesforce|External_Career_Site|Salesforce": "2026-11-18T22:05:15.502344+00:00",
-"workday:target.wd5.myworkdayjobs.com|target|targetcareers|Target": "2026-11-18T22:05:15.502344+00:00",
-"workday:thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers|Thermo Fisher": "2026-11-18T22:05:15.502344+00:00",
-"workday:workday.wd5.myworkdayjobs.com|workday|Workday|Workday": "2026-11-18T22:05:15.502344+00:00",
-"workday:zillow.wd5.myworkdayjobs.com|zillow|Zillow_Group_External|Zillow": "2026-11-18T22:05:15.502344+00:00",
-"wwr:all": "2026-11-18T21:55:14.414587+00:00"
+"lever:kpmg|KPMG": "2026-11-18T22:10:17.436776+00:00",
+"lever:outreach|Outreach": "2026-11-18T22:10:17.436776+00:00",
+"lever:palantir|Palantir": "2026-11-18T22:10:17.436776+00:00",
+"lever:shieldai|Shield AI": "2026-11-18T22:10:17.436776+00:00",
+"lever:spotify|Spotify": "2026-11-18T22:10:17.436776+00:00",
+"lever:veeva|Veeva Systems": "2026-11-18T22:10:17.436776+00:00",
+"lever:whoop|WHOOP": "2026-11-18T22:10:17.436776+00:00",
+"lever:zoox|Zoox": "2026-11-18T22:10:17.436776+00:00",
+"remoteok:all": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:AbbVie|AbbVie": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:BoschGroup|Bosch": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:Equinox|Equinox": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:Experian|Experian": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:IKEA|IKEA": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:Sephora|Sephora": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:ServiceNow|ServiceNow": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:Skechers|Skechers": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:Visa|Visa": "2026-11-18T22:10:17.436776+00:00",
+"smartrecruiters:WesternDigital|Western Digital": "2026-11-18T22:10:17.436776+00:00",
+"workday:3m.wd1.myworkdayjobs.com|3m|Search|3M": "2026-11-18T22:10:17.436776+00:00",
+"workday:abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|Abbott": "2026-11-18T22:10:17.436776+00:00",
+"workday:adobe.wd5.myworkdayjobs.com|adobe|external_experienced|Adobe": "2026-11-18T22:10:17.436776+00:00",
+"workday:autodesk.wd1.myworkdayjobs.com|autodesk|Ext|Autodesk": "2026-11-18T22:10:17.436776+00:00",
+"workday:boeing.wd1.myworkdayjobs.com|boeing|EXTERNAL_CAREERS|Boeing": "2026-11-18T22:10:17.436776+00:00",
+"workday:capitalone.wd12.myworkdayjobs.com|capitalone|Capital_One|Capital One": "2026-11-18T22:10:17.436776+00:00",
+"workday:cardinalhealth.wd1.myworkdayjobs.com|cardinalhealth|EXT|Cardinal Health": "2026-11-18T22:10:17.436776+00:00",
+"workday:crowdstrike.wd5.myworkdayjobs.com|crowdstrike|crowdstrikecareers|CrowdStrike": "2026-11-18T22:10:17.436776+00:00",
+"workday:cvshealth.wd1.myworkdayjobs.com|cvshealth|CVS_Health_Careers|CVS Health": "2026-11-18T22:10:17.436776+00:00",
+"workday:generalmotors.wd5.myworkdayjobs.com|generalmotors|Careers_GM|General Motors": "2026-11-18T22:10:17.436776+00:00",
+"workday:globalhr.wd5.myworkdayjobs.com|globalhr|REC_RTX_Ext_Gateway|RTX": "2026-11-18T22:10:17.436776+00:00",
+"workday:hp.wd5.myworkdayjobs.com|hp|ExternalCareerSite|HP": "2026-11-18T22:10:17.436776+00:00",
+"workday:illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|Illumina": "2026-11-18T22:10:17.436776+00:00",
+"workday:intel.wd1.myworkdayjobs.com|intel|External|Intel": "2026-11-18T22:10:17.436776+00:00",
+"workday:mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers|Mastercard": "2026-11-18T22:10:17.436776+00:00",
+"workday:mckesson.wd3.myworkdayjobs.com|mckesson|External_Careers|McKesson": "2026-11-18T22:10:17.436776+00:00",
+"workday:medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Medtronic": "2026-11-18T22:10:17.436776+00:00",
+"workday:motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|Careers|Motorola Solutions": "2026-11-18T22:10:17.436776+00:00",
+"workday:nike.wd1.myworkdayjobs.com|nike|nke|Nike": "2026-11-18T22:10:17.436776+00:00",
+"workday:nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite|NVIDIA": "2026-11-18T22:10:17.436776+00:00",
+"workday:paypal.wd1.myworkdayjobs.com|paypal|jobs|PayPal": "2026-11-18T22:10:17.436776+00:00",
+"workday:salesforce.wd12.myworkdayjobs.com|salesforce|External_Career_Site|Salesforce": "2026-11-18T22:10:17.436776+00:00",
+"workday:target.wd5.myworkdayjobs.com|target|targetcareers|Target": "2026-11-18T22:10:17.436776+00:00",
+"workday:thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers|Thermo Fisher": "2026-11-18T22:10:17.436776+00:00",
+"workday:workday.wd5.myworkdayjobs.com|workday|Workday|Workday": "2026-11-18T22:10:17.436776+00:00",
+"workday:zillow.wd5.myworkdayjobs.com|zillow|Zillow_Group_External|Zillow": "2026-11-18T22:10:17.436776+00:00",
+"wwr:all": "2026-11-18T22:10:17.436776+00:00"
 },
 "keys": {
 "24 seven talent|procurement analyst supply chain|ny state campus": {
@@ -733800,6 +733800,50 @@
 "skip": "title",
 "t": "2026-11-18T21:40:16.237407+00:00"
 },
+"adzuna:5970796329": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970796411": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970796520": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970796591": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970796673": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970796954": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970797226": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970804221": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970804400": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970804627": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"adzuna:5970804839": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "affirm|customer operations associate i|remote us": {
 "alerted": true,
 "src": "greenhouse:8040790003",
@@ -820385,6 +820429,10 @@
 "skip": "title",
 "t": "2026-11-17T00:45:14.567306+00:00"
 },
+"greenhouse:8204090003": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "greenhouse:8204103003": {
 "skip": "title",
 "t": "2026-11-17T17:20:16.143715+00:00"
@@ -846860,6 +846908,14 @@
 "greenhouse:8397695": {
 "skip": "title",
 "t": "2026-11-17T22:35:13.643956+00:00"
+},
+"greenhouse:8397699": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
+"greenhouse:8397701": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "greenhouse:8397762": {
 "skip": "title",
@@ -878747,6 +878803,10 @@
 "skip": "title",
 "t": "2026-10-14T10:35:11.451984+00:00"
 },
+"himalayas:https://himalayas.app/companies/aecom/jobs/cority-developer-2967348296": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/aecom/jobs/electrical-engineer-data-centers-remote-u-s-3652469028": {
 "skip": "title",
 "t": "2026-10-10T09:35:12.550310+00:00"
@@ -879114,6 +879174,10 @@
 "himalayas:https://himalayas.app/companies/agile-defense/jobs/contracts-specialist": {
 "skip": "title",
 "t": "2026-11-01T04:30:17.414618+00:00"
+},
+"himalayas:https://himalayas.app/companies/agilent-technologies/jobs/2056683552": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/agilent-technologies/jobs/chemistries-and-supplies-inside-sales-associate": {
 "skip": "title",
@@ -885415,6 +885479,10 @@
 "skip": "title",
 "t": "2026-10-24T15:10:15.814676+00:00"
 },
+"himalayas:https://himalayas.app/companies/cardinal-group-companies/jobs/director-centralized-experience": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/cardinal-health/jobs/advisor-deal-management": {
 "skip": "title",
 "t": "2026-11-13T23:00:21.441092+00:00"
@@ -887743,6 +887811,10 @@
 "skip": "title",
 "t": "2026-11-18T05:05:13.661860+00:00"
 },
+"himalayas:https://himalayas.app/companies/commit/jobs/senior-backend-engineer-cybersecurity-8292196088": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/commit/jobs/senior-devops-engineer-aws": {
 "skip": "title",
 "t": "2026-10-28T01:15:13.886486+00:00"
@@ -889491,6 +889563,10 @@
 "skip": "title",
 "t": "2026-10-09T23:35:12.228004+00:00"
 },
+"himalayas:https://himalayas.app/companies/darktrace/jobs/technical-success-manager-7474911229": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/dartmouth-hitchcock-health/jobs/registered-nurse-rn-general-ambulatory-services-part-time-remote": {
 "skip": "title",
 "t": "2026-10-18T00:35:13.027719+00:00"
@@ -890350,6 +890426,10 @@
 "himalayas:https://himalayas.app/companies/dili/jobs/founding-business-development-representative": {
 "skip": "title",
 "t": "2026-10-15T07:35:12.649884+00:00"
+},
+"himalayas:https://himalayas.app/companies/dilucci-cpa/jobs/tax-client-services-manager": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/dine-development-corporation/jobs/edi-xml-subject-matter-expert-sme-intermediate": {
 "skip": "title",
@@ -893567,6 +893647,10 @@
 "skip": "title",
 "t": "2026-11-07T15:20:15.283694+00:00"
 },
+"himalayas:https://himalayas.app/companies/fit1job-sa/jobs/system-engineer-f-h": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/fitify/jobs/online-personal-trainer": {
 "skip": "title",
 "t": "2026-10-13T06:05:13.066757+00:00"
@@ -896299,6 +896383,10 @@
 "skip": "title",
 "t": "2026-10-30T02:20:15.081227+00:00"
 },
+"himalayas:https://himalayas.app/companies/grupo-data/jobs/analista-desenvolvedor-a-calypso-back-office-e-contabilidade": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/grupo-data/jobs/java-developer-kubernetes-docker": {
 "skip": "title",
 "t": "2026-11-04T15:10:54.393853+00:00"
@@ -896318,6 +896406,10 @@
 "himalayas:https://himalayas.app/companies/grupo-sysmap/jobs/desenvolvedor-backend-net-sr-3102437499": {
 "skip": "title",
 "t": "2026-10-06T14:15:17.553598+00:00"
+},
+"himalayas:https://himalayas.app/companies/grupo-sysmap/jobs/operacoes-sre-cloud": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/gruve/jobs/endpoint-security-operations-engineer-l2-microsoft-defender": {
 "skip": "title",
@@ -898787,6 +898879,10 @@
 "skip": "title",
 "t": "2026-10-11T03:05:10.521771+00:00"
 },
+"himalayas:https://himalayas.app/companies/inexogy-smart-metering-gmbh-co-kg/jobs/rust-software-entwickler-m-w-d-energiewirtschaft": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/infinit-o/jobs/charge-entry-specialist": {
 "skip": "title",
 "t": "2026-10-16T04:35:12.839907+00:00"
@@ -898910,6 +899006,10 @@
 "himalayas:https://himalayas.app/companies/init-norway/jobs/senior-cloud-ai-first-engineer-8033260920": {
 "skip": "title",
 "t": "2026-10-31T03:30:16.357533+00:00"
+},
+"himalayas:https://himalayas.app/companies/initium-software/jobs/especialista-en-gobernanza-de-microsoft-fabric-y-azure-ai-foundry": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/initium-software/jobs/genesys-cloud-software-engineer-developer": {
 "skip": "title",
@@ -901239,6 +901339,10 @@
 "skip": "title",
 "t": "2026-10-15T13:35:13.594831+00:00"
 },
+"himalayas:https://himalayas.app/companies/kodiak-solutions/jobs/implementation-senior-associate": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/kodify-media-group/jobs/digital-asset-coordinator": {
 "skip": "title",
 "t": "2026-10-23T19:10:14.900185+00:00"
@@ -901798,6 +901902,10 @@
 "himalayas:https://himalayas.app/companies/leidos/jobs/nen-solution-engineering-sr-voice-engineer-4852838128": {
 "skip": "title",
 "t": "2026-11-11T23:00:23.314221+00:00"
+},
+"himalayas:https://himalayas.app/companies/leidos/jobs/network-security-integration-engineer": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/leidos/jobs/network-vulnerability-remediation-engineer-mid": {
 "skip": "title",
@@ -904263,6 +904371,10 @@
 "skip": "title",
 "t": "2026-11-15T10:00:20.691372+00:00"
 },
+"himalayas:https://himalayas.app/companies/mercer-advisors/jobs/seasonal-tax-preparer": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/mercor/jobs/accounting-specialist-fully-remote-up-to-42-hr": {
 "skip": "title",
 "t": "2026-11-03T05:00:18.520921+00:00"
@@ -904310,6 +904422,10 @@
 "himalayas:https://himalayas.app/companies/mercor/jobs/ai-systems-user-fully-remote-upto-30-hr": {
 "skip": "title",
 "t": "2026-10-17T10:35:10.893754+00:00"
+},
+"himalayas:https://himalayas.app/companies/mercor/jobs/application-security-expert-fully-remote-up-to-400-task-2103898736": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/mercor/jobs/assamese-language-expert-fully-remote-upto-20-hr-part-time-4564371508": {
 "skip": "title",
@@ -906691,6 +906807,10 @@
 "skip": "title",
 "t": "2026-11-06T01:15:13.509088+00:00"
 },
+"himalayas:https://himalayas.app/companies/nagomi-security/jobs/product-marketing-lead": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/nairon/jobs/full-stack-mobile-engineer": {
 "skip": "title",
 "t": "2026-10-17T05:05:11.224234+00:00"
@@ -907266,6 +907386,10 @@
 "himalayas:https://himalayas.app/companies/netpartners-international/jobs/consultor-de-ingeniero-de-gobierno-de-datos": {
 "skip": "title",
 "t": "2026-10-22T15:10:14.818812+00:00"
+},
+"himalayas:https://himalayas.app/companies/netpartners-international/jobs/consultor-experto-en-integracion-s-4hana-y-edi-bilingue": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/netpartners-international/jobs/consultor-funcional-de-seguridad-y-roles-oracle-fusion-cloud-asap": {
 "skip": "title",
@@ -913727,6 +913851,10 @@
 "skip": "title",
 "t": "2026-11-06T09:15:13.674861+00:00"
 },
+"himalayas:https://himalayas.app/companies/respec/jobs/senior-scientific-software-engineer-fed-gov-3850-3867": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/respond-io/jobs/account-executive-latam-spanish-speaker": {
 "skip": "title",
 "t": "2026-11-11T01:20:13.839135+00:00"
@@ -918731,6 +918859,10 @@
 "skip": "title",
 "t": "2026-11-11T13:20:16.423930+00:00"
 },
+"himalayas:https://himalayas.app/companies/sysco/jobs/payroll-tax-analyst": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "himalayas:https://himalayas.app/companies/sysco/jobs/produce-inventory-planner": {
 "skip": "title",
 "t": "2026-11-05T13:10:15.037057+00:00"
@@ -920238,6 +920370,10 @@
 "himalayas:https://himalayas.app/companies/the-medical-college-of-wisconsin-inc/jobs/clinical-apnp-specialist-mcw-medical-group": {
 "skip": "title",
 "t": "2026-10-30T16:00:21.002269+00:00"
+},
+"himalayas:https://himalayas.app/companies/the-n2-company/jobs/accounts-payable-receivable-specialist": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
 },
 "himalayas:https://himalayas.app/companies/the-natural-adventure/jobs/adventure-operations-specialist-bulgaria": {
 "skip": "title",
@@ -1024743,6 +1024879,10 @@
 "skip": "title",
 "t": "2026-11-18T19:40:15.514387+00:00"
 },
+"workday:JR368852": {
+"skip": "title",
+"t": "2026-11-18T22:10:17.436776+00:00"
+},
 "workday:Kentucky Remote Work": {
 "skip": "senior",
 "t": "2026-10-29T21:05:12.521904+00:00"
@@ -1051580,10 +1051720,10 @@
 },
 "last_adzuna": "2026-10-05T20:56:35.253653+00:00",
 "last_poll": {
-"adzuna": "2026-11-18T21:40:16.237407+00:00",
-"himalayas": "2026-11-18T21:40:16.237407+00:00",
+"adzuna": "2026-11-18T22:10:17.436776+00:00",
+"himalayas": "2026-11-18T22:10:17.436776+00:00",
 "jobicy": "2026-11-18T22:00:22.501087+00:00",
-"remoteok": "2026-11-18T21:40:16.237407+00:00",
-"wwr": "2026-11-18T21:55:14.414587+00:00"
+"remoteok": "2026-11-18T22:10:17.436776+00:00",
+"wwr": "2026-11-18T22:10:17.436776+00:00"
 }
 }
